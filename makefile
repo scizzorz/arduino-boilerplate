@@ -1,5 +1,4 @@
-BOARD_TAG    = uno
-ARDUINO_PORT = /dev/ttyACM*
-ARDUINO_LIBS =
+BOARD    = uno
+DEVSERIAL = /dev/ttyACM*
 
-include /usr/share/arduino/Arduino.mk
+include arduino.mk
